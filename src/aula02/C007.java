@@ -1,4 +1,4 @@
-package aula03;
+package aula02;
 
 /*
 C007 Faça um algoritmo que leia dois números quaisquer e informe

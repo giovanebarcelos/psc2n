@@ -1,0 +1,35 @@
+@startuml
+
+class M001 {
+  + main()
+}
+
+class Comanda {
+  - ArrayList<ItemComanda> menu
+  - ArrayList<ItemComanda> comanda
+
+  + Comanda()
+
+  + lerComanda()
+  - ItemComanda lerItemComanda(String descricao, String tipo)
+  - listarMenu(String tipo)
+  - ItemComanda getItemComanda( String tipo,
+                     int codigo)
+
+  + int getTotalCaloriasComanda()
+}
+
+class ItemComanda {
+  + int codigo
+  + String tipo
+  + String descricao
+  + int calorias
+
+  + ItemComanda( int codigo, String tipo,
+  String descricao, int calorias)
+}
+
+Comanda --> ItemComanda : usa
+M001 --> Comanda : usa
+
+@enduml

@@ -1,4 +1,4 @@
-package aula07;
+package aula04;
 
 /*
 M006 Dado uma matriz quadrada de ordem 3 faça um algoritmo que verifique se a matriz é

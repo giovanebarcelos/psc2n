@@ -1,4 +1,4 @@
-package aula07;
+package aula04;
 
 public class Matriz {
     public boolean ehSimetrico(int[][] a) {
