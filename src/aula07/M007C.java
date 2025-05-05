@@ -1,4 +1,4 @@
-package M007;
+package aula07;
 
 import java.util.Random;
 

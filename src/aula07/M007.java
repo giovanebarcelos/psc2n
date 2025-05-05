@@ -1,4 +1,4 @@
-package M007;
+package aula07;
 
 /*
 M007 Dado uma matriz quadrada de ordem 3 de valores reais faça um
